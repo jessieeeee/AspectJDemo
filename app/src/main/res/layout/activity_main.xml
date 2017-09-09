@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <android.support.v7.widget.AppCompatButton
+        android:text="测试自定义切点1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="testMyPointcuts1"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:text="测试自定义切点2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="testMyPointcuts2"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:text="测试自定义切点3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="testMyPointcuts3"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:text="测试精准插入1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="testWithcode1"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:text="测试精准插入2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="testWithcode2"/>
+</LinearLayout>
