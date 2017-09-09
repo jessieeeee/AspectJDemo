@@ -342,9 +342,6 @@ public class WithcodeAspect {
 
 可见第一个方法调用时没有被插入代码，第二个方法被调用时插入了代码，我们实现了精准插入。
 
-demo已打包上传，想要查看代码的同学，点这里[传送门][3]
-
 [0]:http://oqujmbgen.bkt.clouddn.com/AOP-Started.png
 [1]:http://oqujmbgen.bkt.clouddn.com/AOP-Started1.gif
 [2]:http://oqujmbgen.bkt.clouddn.com/AOP-Started2.gif
-[3]:
